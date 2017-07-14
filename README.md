@@ -9,6 +9,7 @@ First, run a3data.sql to create and initialize the tables. Afterwards, any of th
 To a run a file, use these commands within the shell you are provided when you connect to the database using psql:
 
 \i \<filename.sql\>
+
 select \<filename\>();
 
 The first command creates the function in the shell which I have defined in the code file. The second command executes the function defined in the shell. 
